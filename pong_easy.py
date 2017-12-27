@@ -5,7 +5,7 @@ import gameStatus
 class Handler:
 
     def __init__(self, game):
-        self.game = game
+        self.__game = game
 
     # More get and set functions go below here
     # WHY USE GET AND SET FUNCTIONS:
@@ -21,11 +21,14 @@ class Paddle:
     # In the easy version of Pong game,
     # this class is equivalent to the Player class.
 
-    def __init__(self, handler):
+    def __init__(self, handler, position):
         self.__handler = handler
         # All the fields initiated by the constructor go below here
 
     def judge_collision(self):
+        "stub"
+
+    def add_score(self):
         "stub"
 
     def render(self):
@@ -63,6 +66,12 @@ class Ball:
         "stub"
 
     def update(self):
+        "stub"
+
+    def get_canvas_width(self):
+        "stub"
+
+    def get_canvas_height(self):
         "stub"
 
     def get_handler(self):
