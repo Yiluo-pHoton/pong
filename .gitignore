@@ -1,3 +1,6 @@
+# .gitignore will include all the local files that you don't want git
+# to recognize when making commits. Simply writing the file name here will do.
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -101,3 +104,4 @@ ENV/
 .mypy_cache/
 
 pong_key.py
+test.py
