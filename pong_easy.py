@@ -31,6 +31,12 @@ class Paddle:
     def add_score(self):
         "stub"
 
+    def move_left(self):
+        "stub"
+
+    def move_right(self):
+        "stub"
+
     def render(self, canvas):
         "stub"
 
