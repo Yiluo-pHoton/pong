@@ -31,7 +31,7 @@ class Paddle:
     def add_score(self):
         "stub"
 
-    def render(self):
+    def render(self, canvas):
         "stub"
 
     def update(self):
@@ -62,7 +62,7 @@ class Ball:
     def hit(self):
         "stub"
 
-    def render(self):
+    def render(self, canvas):
         "stub"
 
     def update(self):
@@ -92,6 +92,9 @@ class Game:
     def __init__(self):
         self.__handler = handler
         # All the fields initiated by the constructor go below here
+
+    def start_new_game(self):
+        "stub"
 
     def render(self):
         "stub"
