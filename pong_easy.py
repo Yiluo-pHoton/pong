@@ -134,6 +134,9 @@ class Game:
     def key_action(self):
         "stub"
 
+    def render_score(self):
+        "stub"
+
     def render(self):
         "stub"
 
